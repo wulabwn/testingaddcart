@@ -1,0 +1,20 @@
+<---  ini query database -1 ---->
+
+create database productdb
+
+<----- ini buat table  -2 --------->
+
+CREATE TABLE producttb (id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+                        product_name VARCHAR (25) NOT NULL,
+                        product_price FLOAT,
+                        product_image VARCHAR (100)
+                        )
+                        
+<-------- memasukkan data pada tabel ajaran dr akashya ------->
+
+INSERT INTO Producttb (product_name, product_price, product_image)
+        VALUES ('samsung galaxy',1799,'./upload/product1.png'),
+                        ('realme',147,'./upload/product2.png'),
+                        ('mac pro apple  ',459,'./upload/product3.png'),
+                        ('Samsung',278,'./upload/product4.png')";
+
